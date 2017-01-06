@@ -1,0 +1,19 @@
+<div class="pure-menu pure-menu-horizontal">
+{% assign navurl = page.url | remove: 'index.html' %}
+<ul class="nav nav-pills">
+{% for item in include.nav %}
+    <li role="presentation">
+        <a href="{{ item.url }}">
+            {% if item.url == navurl %}
+                <b>{{ item.text }}</b>
+            {% else %}
+                {{ item.text }}
+            {% endif %}
+        </a>
+    </li>
+    {% if item.subitems and navurl contains item.url %}
+        {% include nav.html nav=item.subitems %}
+    {% endif %}
+{% endfor %}
+</ul>
+</div>

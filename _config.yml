@@ -1,0 +1,11 @@
+# Site settings
+title: DBpedia Spotlight
+email: dbpedia-portuguese@lists.sourceforge.net
+description: DBpedia Spotlight - Shedding Light on the Web of Documents
+url: "http://www.dbpedia-spotlight.com" # the base hostname & protocol for your site
+twitter_username: dbpedia
+github_username:  dbpedia-spotlight
+
+# Build settings
+markdown: kramdown
+layout: default
