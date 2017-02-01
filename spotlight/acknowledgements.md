@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acknowledgements
-permalink: /developer/acknowledgements
+permalink: /acknowledgements
 ---
 
 This work has been partially funded by:

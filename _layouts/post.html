@@ -26,7 +26,7 @@ layout: default
 					   <h4 class="title-intern">>> {{ page.title }}</h4>
 					   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="office">{{ page.office }}</span></span>{% endif %}</p>
 					   <div class="justify">
-						 {{ content }}
+							{{ post.content | markdownify }}
 					   </div>	 
 						<div id="disqus_thread"></div>
 						<script>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Licenses
-permalink: /developer/licenses
+permalink: /licenses
 ---
 
 

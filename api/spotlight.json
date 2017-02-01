@@ -2,30 +2,78 @@
     "swagger": "2.0",
     "info": {
         "title": "DBpedia Spotligh API",
-        "description": "Move your app forward with the Uber API",
+        "description": "DBpedia Spotligh is a tool for automatically annotating mentions of DBpedia resources in text, providing a solution for linking unstructured information sources to the Linked Open Data cloud through DBpedia",
         "version": "1.0.0"
     },
-    "host": "spotlight.sztaki.hu:2222",
+    "host": "api.dbpedia-spotlight.org",
     "schemes": [
-        "https"
+        "http"
     ],
-    "basePath": "/rest",
+    "basePath": "/",
     "produces": [
         "application/json"
     ],
     "paths": {
         "/annotate": {
-            "get": {
-                "summary": "Product Types",
-                "description": "Annotate endpoint returns an annotated text.\n",
+            "post": {
+                "summary": "Returns annotated text / entities from an URL",
+                "description": "A 4(four) step process -  Spotting, Candidate Mapping, Disambiguation and Linking / Stats -  for linking unstructured information sources  \n",
                 "parameters": [
                     {
-                        "name": "URL",
+                        "name": "url",
                         "in": "query",
                         "description": "URL to be annotated.",
                         "required": true,
                         "type": "string",
-                        "format": "URL"
+                        "format": "url"
+                    }
+                ],
+                "tags": [
+                    "Annotate"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An annotated text"
+                    }
+                }
+            }
+        },
+        "/candidate": {
+            "get": {
+                "summary": "Returns candidates from an URL",
+                "description": "A 4(four) step process -  Spotting, Candidate Mapping, Disambiguation and Linking / Stats -  for linking unstructured information sources  \n",
+                "parameters": [
+                    {
+                        "name": "url",
+                        "in": "query",
+                        "description": "URL to be annotated.",
+                        "required": true,
+                        "type": "string",
+                        "format": "url"
+                    }
+                ],
+                "tags": [
+                    "Annotate"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An annotated text"
+                    }
+                }
+            }
+        },
+        "/spot": {
+            "get": {
+                "summary": "Returns candidates from an URL",
+                "description": "A 4(four) step process -  Spotting, Candidate Mapping, Disambiguation and Linking / Stats -  for linking unstructured information sources  \n",
+                "parameters": [
+                    {
+                        "name": "url",
+                        "in": "query",
+                        "description": "URL to be annotated.",
+                        "required": true,
+                        "type": "string",
+                        "format": "url"
                     }
                 ],
                 "tags": [

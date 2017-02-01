@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started
-permalink: /developer/contact-support
+permalink: /contact-support
 ---
 
 
