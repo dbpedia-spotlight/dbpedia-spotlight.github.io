@@ -10,22 +10,71 @@
         "http"
     ],
     "basePath": "/",
-    "produces": [
-        "application/json"
-    ],
     "paths": {
         "/annotate": {
             "post": {
                 "summary": "Returns annotated text / entities from an URL",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json",
+                    "text/html",
+                    "application/n-triples",
+                    "application/ld+json",
+                    "text/turtle"
+                ],
                 "description": "A 4(four) step process -  Spotting, Candidate Mapping, Disambiguation and Linking / Stats -  for linking unstructured information sources  \n",
                 "parameters": [
+                    {
+                        "name": "text",
+                        "in": "query",
+                        "description": "text to be annotated.",
+                        "required": true,
+                        "type": "string"
+                    },
                     {
                         "name": "url",
                         "in": "query",
                         "description": "URL to be annotated.",
-                        "required": true,
+                        "required": false,
                         "type": "string",
                         "format": "url"
+                    },
+                    {
+                        "name": "confidence",
+                        "in": "query",
+                        "description": "confidence score for disambiguation / linking",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "name": "support",
+                        "in": "query",
+                        "description": "how prominent is this entity in Lucene Model, i.e. number of inlinks in Wikipedia",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "name": "types",
+                        "in": "query",
+                        "description": "types filter (Eg.DBpedia:Place)",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "sparql",
+                        "in": "query",
+                        "description": "SPARQL filtering",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "policy",
+                        "in": "query",
+                        "description": "(whitelist) select all entities that have the same type;  (blacklist) - select all entities that have not the same type.",
+                        "required": false,
+                        "type": "string"
                     }
                 ],
                 "tags": [
@@ -39,41 +88,145 @@
             }
         },
         "/candidate": {
-            "get": {
+            "post": {
                 "summary": "Returns candidates from an URL",
-                "description": "A 4(four) step process -  Spotting, Candidate Mapping, Disambiguation and Linking / Stats -  for linking unstructured information sources  \n",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json",
+                    "text/html",
+                    "application/n-triples",
+                    "application/ld+json",
+                    "text/turtle"
+                ],
+                "description": "A 2(two) step process -  Spotting, Candidate Mapping -  for linking unstructured information sources  \n",
                 "parameters": [
+                    {
+                        "name": "text",
+                        "in": "query",
+                        "description": "text to be annotated.",
+                        "required": true,
+                        "type": "string"
+                    },
                     {
                         "name": "url",
                         "in": "query",
                         "description": "URL to be annotated.",
-                        "required": true,
+                        "required": false,
                         "type": "string",
                         "format": "url"
+                    },
+                    {
+                        "name": "confidence",
+                        "in": "query",
+                        "description": "confidence score for disambiguation / linking",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "name": "support",
+                        "in": "query",
+                        "description": "how prominent is this entity in Lucene Model, i.e. number of inlinks in Wikipedia",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "name": "types",
+                        "in": "query",
+                        "description": "types filter (Eg.DBpedia:Place)",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "sparql",
+                        "in": "query",
+                        "description": "SPARQL filtering",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "policy",
+                        "in": "query",
+                        "description": "(whitelist) select all entities that have the same type;  (blacklist) - select all entities that have not the same type.",
+                        "required": false,
+                        "type": "string"
                     }
                 ],
                 "tags": [
-                    "Annotate"
+                    "Candidates"
                 ],
                 "responses": {
                     "200": {
-                        "description": "An annotated text"
+                        "description": "possible annotations for a text"
                     }
                 }
             }
         },
         "/spot": {
-            "get": {
+            "post": {
                 "summary": "Returns candidates from an URL",
-                "description": "A 4(four) step process -  Spotting, Candidate Mapping, Disambiguation and Linking / Stats -  for linking unstructured information sources  \n",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json",
+                    "text/html",
+                    "application/n-triples",
+                    "application/ld+json",
+                    "text/turtle"
+                ],
+                "description": "A 1(one) step process -  Spotting -  for linking unstructured information sources  \n",
                 "parameters": [
+                    {
+                        "name": "text",
+                        "in": "query",
+                        "description": "text to be annotated.",
+                        "required": true,
+                        "type": "string"
+                    },
                     {
                         "name": "url",
                         "in": "query",
                         "description": "URL to be annotated.",
-                        "required": true,
+                        "required": false,
                         "type": "string",
                         "format": "url"
+                    },
+                    {
+                        "name": "confidence",
+                        "in": "query",
+                        "description": "confidence score for disambiguation / linking",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "name": "support",
+                        "in": "query",
+                        "description": "how prominent is this entity in Lucene Model, i.e. number of inlinks in Wikipedia",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "name": "types",
+                        "in": "query",
+                        "description": "types filter (Eg.DBpedia:Place)",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "sparql",
+                        "in": "query",
+                        "description": "SPARQL filtering",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "policy",
+                        "in": "query",
+                        "description": "(whitelist) select all entities that have the same type;  (blacklist) - select all entities that have not the same type.",
+                        "required": false,
+                        "type": "string"
                     }
                 ],
                 "tags": [
@@ -81,7 +234,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "An annotated text"
+                        "description": "spots for a text"
                     }
                 }
             }
