@@ -9,8 +9,7 @@ author: Sebastian Hellmann
 office: DBpedia - Germany
 ---
 
-
-(Belated) Happy New Year to all DBpedians!
+## (Belated) Happy New Year to all DBpedians!
 
 We are a proud to look retrospectively at a successful year 2016 and would like to welcome 2017 with our new newsletter (~4 times per year), which will allow you to stay up to date and provide feedback, e.g. via the included survey and the planned events in 2017.
 
@@ -29,7 +28,8 @@ Events - In addition to our participation in the 12th edition of the SEMANTiCS, 
 Links - We have revived the portal, that allows the LOD community to contribute their links, so we can include them in DBpedia Releases. If your database links to DBpedia, you can submit your links here: https://github.com/dbpedia/links . We provide additional support for this and also provide a service, that - once you have contributed your links - will tell you which data is linking to your knowledge base via DBpedia http://downloads.dbpedia.org/links/backlinks/, available only for Association members.
 
 We would like to thank again all people who were involved to enable this!
-2017 - New Year - New Opportunities
+
+## 2017 - New Year - New Opportunities
 
 To make 2017 as great as 2016 we have already reviewed community feedback and worked out some plans to bring the DBpedia community closer together whereas we attain our goals and follow our visions. Below are the most important points for 2017.
 
