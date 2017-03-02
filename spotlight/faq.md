@@ -88,7 +88,6 @@ permalink: /faq
 > * ru - Russian
 > * sv - Swedish
 > * tr - Turkish
-
 > This list is not limited to these languages. You can help expand this list by following our internationalization guide at [https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Internationalization ](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Internationalization)
 
 ### What are the applications of DBpedia Spotlight?
