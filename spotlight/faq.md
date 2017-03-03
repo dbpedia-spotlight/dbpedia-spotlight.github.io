@@ -5,14 +5,15 @@ permalink: /faq
 ---
 
 ### What is DBpedia?
-> DBpedia is a crowd-sourced community effort to extract structured information from Wikipedia and make this information available on the Web. DBpedia allows you to ask sophisticated queries against Wikipedia, and to link the different data sets on the Web to Wikipedia data. Furthermore, it might inspire new mechanisms for navigating, linking, and improving the encyclopedia itself. Se more at [dbpedia.org](http://www.dbpedia.org)
+> DBpedia is a crowd-sourced community effort to extract structured information from Wikipedia and make this information available on the Web. DBpedia allows you to ask sophisticated queries against Wikipedia, and to link the different data sets on the Web to Wikipedia data. Furthermore, it might inspire new mechanisms for navigating, linking, and improving the encyclopedia itself. Se more at [dbpedia.org](http://www.dbpedia.org){:target="_blank"}
 
 ### What is DBpedia Spotlight?
 
-> DBpedia Spotlight is a tool for automatically annotating mentions of DBpedia resources in text, providing a solution for linking unstructured information sources to the Linked Open Data cloud through DBpedia.
-> Currently DBpedia Spotlight contains two approaches: Model e Lucene. 
-> The Model was described in the article "Improving Efficiency and Accuracy in Multilingual Entity Extraction" in 2013 in the Proceedings of the 9th International Conference on Semantic Systems (I-Semantics). The models and API are available at [model.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org)
-> The Lucene version, described in the article DBpedia Spotlight: Shedding Light on the Web of Documents was published in the Proceedings of the 7th International Conference on Semantic Systems (I-Semantics 2011). The models and API are available at [lucene.dbpedia-spotlight.org](http://lucene.dbpedia-spotlight.org)
+> DBpedia Spotlight is a tool for automatically annotating mentions of DBpedia resources in text, providing a solution for linking unstructured information sources to the Linked Open Data cloud through DBpedia. Currently DBpedia Spotlight contains two approaches: Model e Lucene. 
+>
+> The Model was described in the article "Improving Efficiency and Accuracy in Multilingual Entity Extraction" in 2013 in the Proceedings of the 9th International Conference on Semantic Systems (I-Semantics). The models and API are available at [model.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org){:target="_blank"}
+>
+> The Lucene version, described in the article DBpedia Spotlight: Shedding Light on the Web of Documents was published in the Proceedings of the 7th International Conference on Semantic Systems (I-Semantics 2011). The models and API are available at [lucene.dbpedia-spotlight.org](http://lucene.dbpedia-spotlight.org){:target="_blank"}
 
 ###  What formats are avaiable?
 
