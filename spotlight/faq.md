@@ -18,13 +18,13 @@ permalink: /faq
 ###  What formats are avaiable?
 
 > Spotlight supports 7 formats via content-negotiation, which are the following:
-> * HTML/ TEST - text/html
-> * JSON - application/json
-> * NIF - text/turtle
-> * N-Triples - application/n-triples 
-> * JSON-LD - application/ld+json
-> * XHTML - application/xhtml+xml 
-> * XML - text/xml
+> * [HTML/ TEST - text/html](http://dbpedia.org/resource/HTML){:target="_blank"}
+> * [JSON - application/json](http://dbpedia.org/resource/JSON){:target="_blank"}
+> * [NIF - text/turtle(http://aksw.org/Projects/NIF.html)]{:target="_blank"}
+> * [N-Triples - application/n-triples](http://dbpedia.org/resource/N-Triples){:target="_blank"} 
+> * [JSON-LD - application/ld+json](http://json-ld.org/){:target="_blank"}
+> * [XHTML - application/xhtml+xml](http://dbpedia.org/resource/XHTML){:target="_blank"}
+> * [XML - text/xml](http://dbpedia.org/resource/XML){:target="_blank"}
 
 ### I want to install the tool. How do I do?
 	
@@ -47,7 +47,6 @@ permalink: /faq
 ### Where do I find the precompiled models?
 
 > Precompiled models are available at:
-
 > * Model: [http://model.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org){:target="_blank"}
 > * Lucene: [http://lucene.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org){:target="_blank"}
 
@@ -84,7 +83,7 @@ permalink: /faq
 
 ### What are the applications of DBpedia Spotlight?
 
-> You can from enrich content through mashups such as in [RDFaCE](http://){:target="_blank"} or [mEducator](http://){:target="_blank"}, create applications for information catalogers like in media companies or even use the generated data to improve search engines.
+> You can from enrich content through mashups such as in [RDFaCE](http://aksw.org/Projects/RDFaCE.html){:target="_blank"} or [mEducator](http://www.meducator.net/){:target="_blank"}, create applications for information catalogers like in media companies or even use the generated data to improve search engines.
 
 ### What are the differences in the models available? what does "en_2+2" stands for?
 > The numbers in the model names stand for cut-offs in terms of counts, so 2+3 stands for: minimum count of a surface form=2, minimum count of a context word=3.
