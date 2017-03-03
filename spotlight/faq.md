@@ -44,9 +44,9 @@ permalink: /faq
 
 > To use, follow the steps in How to run at [https://github.com/dbpedia-spotlight/spotlight-docker](https://github.com/dbpedia-spotlight/spotlight-docker)
 
-### Where do I find the precompiled templates?
+### Where do I find the precompiled models?
 
-> Precompiled templates are available at:
+> Precompiled models are available at:
 
 > * Model: [http://model.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org)
 > * Lucene: [http://lucene.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org)
@@ -54,18 +54,8 @@ permalink: /faq
 ### Where can I find the tools to build the models?
 
 > The process of constructing models are available in Docker by approach - Model and Lucene. The instructions are available in the following links:
-
 > * Model: [https://github.com/dbpedia-spotlight/model-quickstarter](https://github.com/dbpedia-spotlight/model-quickstarter)
 > * Lucene: [https://github.com/dbpedia-spotlight/lucene-quickstarter](https://github.com/dbpedia-spotlight/lucene-quickstarter)
-
-
-### Why the disambiguation:
-
-> 1. Does it work as expected in short texts?
-> The models are probabilistic and rely on the context of the text used. The greater the content - in words - the more efficient the disambiguation process, thus increasing the assertiveness of the provided links.
-> 2. Does it produce some false positives?
-> Even with sophisticated templates used for disambiguation, sometimes may appear links that are not related to the subject matter. This shows how compelling and complex it is to categorize and select the right information. You can work around this problem by increasing the confidence parameter.
-
 
 ## What can I do to get better results in annotations?
 	
@@ -98,3 +88,14 @@ permalink: /faq
 ### What are the differences in the models available? what does "en_2+2" stands for?
 > The numbers in the model names stand for cut-offs in terms of counts, so 2+3 stands for: minimum count of a surface form=2, minimum count of a context word=3.
 > Higher minimum counts mean that more sf-entity and sf-context word combinations are left out of the model.
+
+
+### Why the disambiguation:
+
+> ## 1. Does it work as expected in short texts?
+> The models are probabilistic and rely on the context of the text used. The greater the content - in words - the more efficient the disambiguation process, thus increasing the assertiveness of the provided links.
+> ## 2. Does it produce some false positives?
+> Even with sophisticated templates used for disambiguation, sometimes may appear links that are not related to the subject matter. This shows how compelling and complex it is to categorize and select the right information. You can work around this problem by increasing the confidence parameter.
+
+
+
