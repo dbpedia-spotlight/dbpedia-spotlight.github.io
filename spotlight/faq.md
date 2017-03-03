@@ -20,7 +20,7 @@ permalink: /faq
 > Spotlight supports 7 formats via content-negotiation, which are the following:
 > * [HTML/ TEST - text/html](http://dbpedia.org/resource/HTML){:target="_blank"}
 > * [JSON - application/json](http://dbpedia.org/resource/JSON){:target="_blank"}
-> * [NIF - text/turtle(http://aksw.org/Projects/NIF.html)]{:target="_blank"}
+> * [NIF - text/turtle](http://aksw.org/Projects/NIF.html){:target="_blank"}
 > * [N-Triples - application/n-triples](http://dbpedia.org/resource/N-Triples){:target="_blank"} 
 > * [JSON-LD - application/ld+json](http://json-ld.org/){:target="_blank"}
 > * [XHTML - application/xhtml+xml](http://dbpedia.org/resource/XHTML){:target="_blank"}
