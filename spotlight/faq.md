@@ -42,20 +42,20 @@ permalink: /faq
 > * Swedish;
 > * Turkish.
 
-> To use, follow the steps in How to run at [https://github.com/dbpedia-spotlight/spotlight-docker](https://github.com/dbpedia-spotlight/spotlight-docker)
+> To use, follow the steps in How to run at [https://github.com/dbpedia-spotlight/spotlight-docker](https://github.com/dbpedia-spotlight/spotlight-docker){:target="_blank"}
 
 ### Where do I find the precompiled models?
 
 > Precompiled models are available at:
 
-> * Model: [http://model.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org)
-> * Lucene: [http://lucene.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org)
+> * Model: [http://model.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org){:target="_blank"}
+> * Lucene: [http://lucene.dbpedia-spotlight.org](http://model.dbpedia-spotlight.org){:target="_blank"}
 
 ### Where can I find the tools to build the models?
 
 > The process of constructing models are available in Docker by approach - Model and Lucene. The instructions are available in the following links:
-> * Model: [https://github.com/dbpedia-spotlight/model-quickstarter](https://github.com/dbpedia-spotlight/model-quickstarter)
-> * Lucene: [https://github.com/dbpedia-spotlight/lucene-quickstarter](https://github.com/dbpedia-spotlight/lucene-quickstarter)
+> * Model: [https://github.com/dbpedia-spotlight/model-quickstarter](https://github.com/dbpedia-spotlight/model-quickstarter){:target="_blank"}
+> * Lucene: [https://github.com/dbpedia-spotlight/lucene-quickstarter](https://github.com/dbpedia-spotlight/lucene-quickstarter){:target="_blank"}
 
 ## What can I do to get better results in annotations?
 	
@@ -63,7 +63,7 @@ permalink: /faq
 
 ## How do I build a template with my own data?
 
-> We have created a specific guide for this integration task. Visit Data Integration at [https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Data_Integration](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Data_Integration)
+> We have created a specific guide for this integration task. Visit Data Integration at [https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Data_Integration](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Data_Integration){:target="_blank"}
 
 ## Which languages are supported?
 
@@ -79,11 +79,12 @@ permalink: /faq
 > * ru - Russian
 > * sv - Swedish
 > * tr - Turkish
-> This list is not limited to these languages. You can help expand this list by following our internationalization guide at [https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Internationalization ](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Internationalization)
+>
+> This list is not limited to these languages. You can help expand this list by following our internationalization guide at [https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Internationalization ](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Internationalization){:target="_blank"}
 
 ### What are the applications of DBpedia Spotlight?
 
-> You can from enrich content through mashups such as in [RDFaCE](http://) or [mEducator](http://), create applications for information catalogers like in media companies or even use the generated data to improve search engines.
+> You can from enrich content through mashups such as in [RDFaCE](http://){:target="_blank"} or [mEducator](http://){:target="_blank"}, create applications for information catalogers like in media companies or even use the generated data to improve search engines.
 
 ### What are the differences in the models available? what does "en_2+2" stands for?
 > The numbers in the model names stand for cut-offs in terms of counts, so 2+3 stands for: minimum count of a surface form=2, minimum count of a context word=3.
@@ -92,9 +93,9 @@ permalink: /faq
 
 ### Why the disambiguation:
 
-> ## 1. Does it work as expected in short texts?
+> #### 1. Does it work as expected in short texts?
 > The models are probabilistic and rely on the context of the text used. The greater the content - in words - the more efficient the disambiguation process, thus increasing the assertiveness of the provided links.
-> ## 2. Does it produce some false positives?
+> #### 2. Does it produce some false positives?
 > Even with sophisticated templates used for disambiguation, sometimes may appear links that are not related to the subject matter. This shows how compelling and complex it is to categorize and select the right information. You can work around this problem by increasing the confidence parameter.
 
 
