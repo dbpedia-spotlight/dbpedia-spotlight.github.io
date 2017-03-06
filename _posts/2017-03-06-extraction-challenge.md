@@ -25,7 +25,7 @@ Wikipedia has become the ubiquitous source of knowledge for the world enabling h
 
 ## News and next events
 
-Twitter: Follow @dbpedia, Hashtag: #dbpedianlp
+Twitter: Follow [@dbpedia](http://www.twitter.com/dbpedia), Hashtag: **#dbpedianlp**
 
 LDK conference joined the challenge (Deadline March 19th and April 24th)
 SEMANTiCS joined the challenge (Deadline June 11th and July 17th)
@@ -62,9 +62,13 @@ The project was created with the support of the H2020 EU project HOBBIT (GA-6882
 ## Challenge Committee
 
 Sebastian Hellmann, AKSW, DBpedia Association, KILT Competence Center, InfAI, Leipzig
+
 Sören Auer, Fraunhofer IAIS, University of Bonn
+
 Ricardo Usbeck, AKSW, Simba Competence Center, Leipzig University
+
 Dimitris Kontokostas, AKSW, DBpedia Association, KILT Competence Center, InfAI, Leipzig
+
 Sandro Coelho, AKSW, DBpedia Association, KILT Competence Center, InfAI, Leipzig
 
 Contact Email: dbpedia-textext-challenge (at) infai.org
