@@ -8,11 +8,11 @@ permalink:  /developers
 The DBpedia Spotlight team includes the names cited below. Individual contributions are acknowledged in the source code and publications.
 
 #### Maintainers
-* Prof. Dr. [Chris Bizer](http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/team/BizerChristian.html){:target="_blank"}. (Freie Universität Berlin),  supervisor, Jun 2010-Mar 2014.
+* Prof. Dr. Chris Bizer (Freie Universität Berlin),  supervisor, Jun 2010-Mar 2014.
 * David Przybilla
 * [Joachim Daiber](http://jodaiber.de/){:target="_blank"}. (University of Amsterdam), Mar 2011-present.
-* [Max Jakob](http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/team/JakobMax.html){:target="_blank"}. (Freie Universität Berlin), Jun 2010-Sep 2011, Apr 2012 - Mar 2014.
-* [Pablo Mendes](http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/team/MendesPablo.html){:target="_blank"}. (Freie Universität Berlin), Jun 2010-present.
+* Max Jakob. (Freie Universität Berlin), Jun 2010-Sep 2011, Apr 2012 - Mar 2014.
+* Pablo Mendes. (Freie Universität Berlin), Jun 2010-present.
 * Thiago Galery
 * Sandro Coelho
 
