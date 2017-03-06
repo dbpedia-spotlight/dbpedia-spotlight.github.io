@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DBpedia Open Text Extraction Challenge - TextExt"
-date:   2017-02-28 13:16:00 -0300
+date:   2017-03-06 10:31:00 -0300
 comments: true
 categories: dbpedia
 resume: "The DBpedia Open Text Extraction Challenge differs significantly from other challenges in the language technology and other..."
