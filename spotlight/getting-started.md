@@ -9,7 +9,7 @@ permalink: /getting-started
 
 * Web Application: we prepared a [HTML+Javascript interface to show you how DBpedia Spotlight works](/demo)
 * Web Service: [RESTful interface that takes text as input and returns annotated text as output](/spotlight-api)
-
+* Our [Wiki](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki)
 
 #### If you are a developer:
 
