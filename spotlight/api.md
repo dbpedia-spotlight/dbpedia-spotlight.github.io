@@ -4,4 +4,4 @@ title: Spotlight API
 permalink:  /api
 ---
 
-{% include swagger/index.html %}
+{% include swagger/index.html%}
