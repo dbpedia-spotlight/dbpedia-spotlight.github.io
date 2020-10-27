@@ -497,6 +497,14 @@ a:hover {
     background: #003047;
 }
 
+
+.contribute-line {
+    width: 500px;
+    height: 2px;
+    margin: 0 auto;
+    background: #003047;
+}
+
 .price-box {
     border: solid 1px #d1d1d1;
 }
@@ -564,7 +572,6 @@ a:hover {
 }
 
 #client {
-    background: #f6f6f6;
     padding: 70px 0 70px;
 }
 
@@ -586,6 +593,8 @@ a:hover {
 
 #testi {
     padding: 100px 0 100px;
+    background: #f6f6f6;
+    color: inherit !important;
 }
 
 .testi-item {
@@ -1239,8 +1248,6 @@ a:hover {
 
 #download {
     padding-top: 100px;
-    background: #f6f6f6;
-    color: inherit !important;
 }
 
 #download h2 {
@@ -1262,3 +1269,16 @@ a:hover {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
 }
+
+#contribute {
+    padding: 100px 0 100px;
+    background: #f6f6f6;
+    color: inherit !important;
+}
+
+#contribute h2 {
+    margin: 15px 0 15px 0;
+    font-size: 40px;
+    font-weight: 300;
+}
+
