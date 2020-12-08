@@ -9,3 +9,4 @@ github_username:  dbpedia-spotlight
 # Build settings
 markdown: kramdown
 layout: default
+exclude: [scripts]

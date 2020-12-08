@@ -1,0 +1,7 @@
+---
+layout: page
+title: Spotlight API
+permalink:  /api/XXLANGXX
+---
+
+{% include swagger/api-XXLANGXX.html%}
