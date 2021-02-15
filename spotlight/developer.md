@@ -15,7 +15,7 @@ The DBpedia Spotlight team includes the names cited below. Individual contributi
 * Pablo Mendes. (Freie Universität Berlin), Jun 2010-present.
 * Thiago Galery
 * Sandro Coelho
-
+* Julio Noe Hernandez Torres
 
 #### Collaborators
 
